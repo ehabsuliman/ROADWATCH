@@ -1,0 +1,21 @@
+using taget encoding 
+    First I converted a label column to a label encoder(in new column), 
+then I split the data into a word as input and a label encoder as target. 
+I used the "algorithm name" to train the model.
+
+
+Classification Report (Sample):
+              precision    recall  f1-score   support
+
+       B-LOC       0.85      0.91      0.88      9202
+     B-close       0.00      0.00      0.00      1355
+      B-open       0.83      0.98      0.90      5254
+       I-LOC       0.00      0.00      0.00      2038
+           O       0.92      0.98      0.95     26636
+
+    accuracy                           0.89     44485
+   macro avg       0.52      0.58      0.55     44485
+weighted avg       0.83      0.89      0.86     44485
+
+
+
