@@ -1,0 +1,104 @@
+handle the imbalance data and train model using target enocding represntation 
+
+
+before balance data :
+
+label
+O          181184
+B-LOC       63211
+B-open      36414
+I-LOC       13916
+B-close      9043
+
+and this is metric classification report
+
+Classification Report (Sample):
+              precision    recall  f1-score   support
+
+       B-LOC       0.86      0.91      0.89     12697
+     B-close       0.00      0.00      0.00      1762
+      B-open       0.83      0.99      0.90      7301
+       I-LOC       0.00      0.00      0.00      2763
+           O       0.92      0.98      0.95     36231
+
+    accuracy                           0.90     60754
+   macro avg       0.52      0.58      0.55     60754
+weighted avg       0.83      0.90      0.86     60754
+
+this is Sample Prediction with imbalance data
+
+Sample Prediction Results:
+           Word Actual_Label Predicted_Label
+855279   الزعيم        B-LOC           B-LOC
+540758    بورين        I-LOC           I-LOC
+379865     سالك       B-open          B-open
+796159    مغلقة      B-close         B-close
+5462       مغلق      B-close         B-close
+618386      تحت       B-open          B-open
+722139      دير        B-LOC           B-LOC
+139343     سالك       B-open          B-open
+762403      تحت       B-open          B-open
+596190     مغلق      B-close         B-close
+274890     مغلق      B-close         B-close
+241791     واقف      B-close         B-close
+307698  اللدائن            O               O
+215337     مغلق      B-close         B-close
+730153    الياس        I-LOC           I-LOC
+744418   الدقيق            O          B-open
+3088      بتجاه            O               O
+715137    وسكرو      B-close         B-close
+358799   أريئيل            O               O
+427874     حارس        I-LOC           I-LOC
+
+##############------------------------##############
+
+
+after balance the data 
+
+label
+I-LOC      181184
+B-open     181184
+B-LOC      181184
+B-close    181184
+O          181184
+
+and this is metric classification report
+
+Classification Report (Sample):
+              precision    recall  f1-score   support
+
+       B-LOC       0.99      0.92      0.96     36242
+     B-close       0.94      1.00      0.97     36357
+      B-open       0.89      1.00      0.94     36288
+       I-LOC       0.87      0.99      0.93     35986
+           O       1.00      0.76      0.86     36311
+
+    accuracy                           0.93    181184
+   macro avg       0.94      0.93      0.93    181184
+weighted avg       0.94      0.93      0.93    181184
+
+
+this is Sample Prediction with balance data
+
+Sample Prediction Results:
+            Word Actual_Label Predicted_Label
+379178      عزبة            O               O
+176518     روابي        B-LOC           B-LOC
+220646       جيش            O               O
+875629     مغلقة      B-close         B-close
+382396      سالك       B-open          B-open
+216940     سلفيت        B-LOC           B-LOC
+529002     اريحا        B-LOC           B-LOC
+618731       يطا        B-LOC           B-LOC
+76533   العيزرية        B-LOC           B-LOC
+603467       جبع        B-LOC           B-LOC
+669701      سالك       B-open          B-open
+42327      مغلقة      B-close         B-close
+403349      سالك       B-open          B-open
+524878      حارس        I-LOC           I-LOC
+11139        ولا            O               O
+849178      سالك       B-open          B-open
+863856     شمرون        I-LOC           I-LOC
+544506      مغلق      B-close         B-close
+641355     اغلاق      B-close         B-close
+879810     سينيا        I-LOC           I-LOC
