@@ -1,0 +1,15 @@
+after extend the data i trained the model using target encoding 
+in same time the f1-score it is blind over B-close and I-LOC.
+
+Classification Report (Sample):
+              precision    recall  f1-score   support
+
+       B-LOC       0.86      0.91      0.89     12697
+     B-close       0.00      0.00      0.00      1762
+      B-open       0.83      0.99      0.90      7301
+       I-LOC       0.00      0.00      0.00      2763
+           O       0.92      0.98      0.95     36231
+
+    accuracy                           0.90     60754
+   macro avg       0.52      0.58      0.55     60754
+weighted avg       0.83      0.90      0.86     60754
