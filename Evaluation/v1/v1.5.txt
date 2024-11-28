@@ -1,0 +1,76 @@
+after save model, target encoding, label encoding 
+and load them in new test-model.ipynb 
+
+i get new data (unseen) to the model and make prediction to test
+
+i have this sampel prediction
+
+	Word	label	Predicted Label
+0	    عش  B-LOC	B-close
+1	الغراب	I-LOC	I-LOC
+2	 أزمة	O	    O
+3	للداخل	O	    O
+4	على	    O	    O
+5	بيت	    B-LOC	B-LOC
+6	لحم	    I-LOC	I-LOC
+7	الكونتيرB-LOC	B-LOC
+8	ازمه	O	    O
+9	وشبه	O	    O
+10	مغلق	B-close	B-close
+11	الوضع	O	    O
+12	صعب	    O	    O   
+13	جدا	    O	    O
+14	على	    O	    O
+15	عورتا	B-LOC	B-LOC
+16	للداخل	O	    O
+17	حاجز	O	    O
+18	معالي	O	    B-close
+19	افرايم	B-LOC	B-LOC
+20	سالك	B-open	B-open
+21	بالاتجاهين	O	 O
+22	تم	    O	    O
+23	فتح	    B-open	B-open
+24	حاجز	O	    O
+25	عناب	B-LOC	B-LOC
+26	بالاتجاهين	O	 O
+27	بوابات	O	    O
+28	يتما	B-LOC	B-LOC
+29	سالكات	B-open	B-open
+30	بوابات	O	    O
+31	عقربا	B-LOC	B-LOC
+32	سالكات	B-open	B-open
+33	بوابة	O	    I-LOC
+34	جوريش	O	    O
+35	سالكه	B-open	B-open
+36	بوابة	O	    I-LOC
+37	المجدل	O	    I-LOC
+38	سالكه	B-open	B-open
+39	المربعة	B-LOC	B-LOC
+40	سالكة	B-open	B-open
+41	بالاتجاهين	O	 O
+42	شبه	    O	    O
+43	وقوف	B-close	B-close
+44	تام	    O	    O
+45	للداخل	O	    O
+46	يعني	O	    O
+47	بدك	    O	    I-LOC
+48	تحسب	O	    B-open
+49	حسابك	O	    B-open
+
+
+this is classification report (prediction)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+       B-LOC       0.98      0.92      0.95     64320
+     B-close       0.62      1.00      0.77      9170
+      B-open       0.68      1.00      0.81     37123
+       I-LOC       0.35      0.99      0.52     14173
+           O       1.00      0.76      0.86    184083
+
+    accuracy                           0.84    308869
+   macro avg       0.73      0.93      0.78    308869
+weighted avg       0.92      0.84      0.86    308869
+
+
