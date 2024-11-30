@@ -1,0 +1,92 @@
+Retrain the model now i am using 3 input features ['Word', 'Word Index', 'Length Word'] 
+and label Word as label(target)
+
+Imbalanced data
+      |
+      |
+      V
+
+Classification Report (Sample):
+              precision    recall  f1-score   support
+
+       B-LOC       0.87      0.91      0.89     12697
+     B-close       1.00      0.03      0.07      1762
+      B-open       0.83      0.99      0.90      7301
+       I-LOC       0.00      0.00      0.00      2763
+           O       0.92      0.98      0.95     36231
+
+    accuracy                           0.90     60754
+   macro avg       0.72      0.58      0.56     60754
+weighted avg       0.86      0.90      0.86     60754
+
+
+
+Sample Prediction Results:
+              Word  Word Index  Length Word Actual_Label Predicted_Label
+64409         مدخل           1            4            O               O
+93482       باتجاه           9            6            O               O
+267893         عين           1            3        B-LOC           B-LOC
+107121        الان           4            4            O               O
+285755        سالك           3            4       B-open          B-open
+268627        سينا           2            4            O               O
+81486          زيف           2            3            O               O
+22143        ايقاف           6            5            O               O
+179310        دوار           1            4            O               O
+292643        سالك          10            4       B-open          B-open
+144602        حاجز           1            4            O               O
+114237        ربنا          39            4            O               O
+144676       زعترة           5            5        B-LOC           B-LOC
+117007      كدوميم           2            6        B-LOC           B-LOC
+188119      الفوار           7            6        B-LOC           B-LOC
+175938  بالاتجاهين           6           10            O               O
+216551        فسلم           8            4            O               O
+283578       حوارة           2            5        B-LOC           B-LOC
+50661           ما          20            2            O               O
+81254        نابلس          99            5        B-LOC           B-LOC
+
+
+
+!!!!!!!!!!#############----------------************$$$$$$$$$$$$$$$
+
+balanced data
+    |
+    |
+    V
+
+Classification Report (Sample):
+              precision    recall  f1-score   support
+
+       B-LOC       0.99      0.92      0.96     36242
+     B-close       0.92      1.00      0.96     36357
+      B-open       0.92      1.00      0.96     36288
+       I-LOC       0.86      0.99      0.92     35986
+           O       1.00      0.76      0.86     36311
+
+    accuracy                           0.93    181184
+   macro avg       0.94      0.93      0.93    181184
+weighted avg       0.94      0.93      0.93    181184
+
+
+
+Sample Prediction Results:
+          Word  Word Index  Length Word Actual_Label Predicted_Label
+659673   سينيا           2            5        I-LOC           I-LOC
+220556    سالك           3            4       B-open          B-open
+66797     جاين         244            4        B-LOC          B-open
+895563   امورو          13            5            O          B-open
+419443   مغلقة         101            5      B-close         B-close
+314885    حاجز           3            4        B-LOC               O
+344173    صالح          15            4        I-LOC           I-LOC
+867923  الخارج           5            6            O               O
+390205  متواجد           3            6            O               O
+647514   سلفيت         128            5        B-LOC           B-LOC
+221309   النفق         253            5        I-LOC          B-open
+125244    مغلق           3            4      B-close         B-close
+258579   سينيا           2            5        I-LOC           I-LOC
+261707    سالك         238            4       B-open          B-open
+219134    حركة          14            4            O               O
+731602    مغلق          61            4      B-close         B-close
+372899    سالك         109            4       B-open          B-open
+103641     جيت           5            3        B-LOC           B-LOC
+291247    حاجز           1            4            O               O
+340293     على         191            3            O               O
