@@ -1,0 +1,89 @@
+retrain the same model (target encoding) with add feature that name ['Word Index'] 
+in this case i am using the ['Word', 'Word Index'] as input feature 
+and label as target
+
+
+
+Classification Report (Sample): (imbalanced data)
+              precision    recall  f1-score   support
+
+       B-LOC       0.86      0.91      0.89     12697
+     B-close       1.00      0.01      0.02      1762
+      B-open       0.83      0.99      0.90      7301
+       I-LOC       0.00      0.00      0.00      2763
+           O       0.92      0.98      0.95     36231
+
+    accuracy                           0.90     60754
+   macro avg       0.72      0.58      0.55     60754
+weighted avg       0.86      0.90      0.86     60754
+
+
+
+
+this is a sample prediction 
+
+
+Sample Prediction Results: (imbalanced data)
+             Word  Word Index Actual_Label Predicted_Label
+120051         خط           1            O               O
+32483          مع         194            O               O
+155572        فحص           5            O               O
+131301  الاتجاهات           6            O               O
+229806   الكفريات          64        B-LOC           B-LOC
+267507      الرام          11        B-LOC           B-LOC
+250004     اشارات           5            O               O
+65737         بيت           5        B-LOC           B-LOC
+158048      حاليا           4            O               O
+112443       وأهل          13            O               O
+264683    الجلزون           3        B-LOC           B-LOC
+114612     الجورة           5        I-LOC               O
+59205         بنص           6            O               O
+10354         على           7            O               O
+5778     السواحرة           9            O               O
+263847       عناب          57        B-LOC           B-LOC
+96837        سالك           8       B-open          B-open
+61049      للداخل           6            O               O
+122218        عكس          15            O               O
+137200    المربعة           1        B-LOC           B-LOC
+
+
+
+here with balanced data 
+
+Classification Report (Sample): (balanced data)
+              precision    recall  f1-score   support
+
+       B-LOC       0.99      0.92      0.96     36242
+     B-close       0.94      1.00      0.97     36357
+      B-open       0.89      1.00      0.94     36288
+       I-LOC       0.87      0.99      0.93     35986
+           O       1.00      0.76      0.86     36311
+
+    accuracy                           0.93    181184
+   macro avg       0.94      0.93      0.93    181184
+weighted avg       0.94      0.93      0.93    181184
+
+
+
+Sample Prediction Results: (balanced data)
+           Word  Word Index Actual_Label Predicted_Label
+146618     سالك           3       B-open          B-open
+632048    سينيا           2        I-LOC           I-LOC
+606260    عوفرا          81        B-LOC           B-LOC
+356346     مغلق           5      B-close         B-close
+852918    سينيا           2        I-LOC           I-LOC
+692608    اغلاق           1      B-close         B-close
+171123     مغلق           2      B-close         B-close
+290122    عورتا           1        B-LOC           B-LOC
+666860      جسر           1            O               O
+296792   للخارج           4            O               O
+901982     مغلق          46      B-close         B-close
+361810   الطنيب           5        B-LOC           B-LOC
+325998     مغلق         273      B-close         B-close
+373327  والمشرف         410            O               O
+682305    عصيون           9        B-LOC           B-LOC
+251967    الياس          84        I-LOC           I-LOC
+810148     مغلق          91      B-close         B-close
+321782     مغلق           3      B-close         B-close
+188443    عابود         186            O               O
+739597     مغلق          98      B-close         B-close
