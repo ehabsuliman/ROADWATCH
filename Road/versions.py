@@ -1,14 +1,11 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
 import os
 from datetime import datetime
 
 class ModelVersionManager:
-    def __init__(self, version_folder="model_versions"):
+    def __init__(self, version_folder="model_versions2"):
         self.version_folder = version_folder
         self.current_version = {"major": 1, "minor": 0, "batch": 0}
 
