@@ -52,4 +52,3 @@ class ModelVersionManager:
     def get_version_folder(self):
         """Return the folder where versions are stored."""
         return self.version_folder
-
