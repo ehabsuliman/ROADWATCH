@@ -1,0 +1,18 @@
+Version: 1.0.5
+Timestamp: 2024-12-24T22:33:15.042532
+Changes: parameter
+add parameter max_depth = 3
+Evaluation Metrics:
+  - classification_report
+:               precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00     12412
+           1       0.00      0.00      0.00      1889
+           2       0.00      0.00      0.00      7313
+           3       0.00      0.00      0.00      2779
+           4       0.60      1.00      0.75     36258
+
+    accuracy                           0.60     60651
+   macro avg       0.12      0.20      0.15     60651
+weighted avg       0.36      0.60      0.45     60651
+
