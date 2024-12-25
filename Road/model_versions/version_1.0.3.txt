@@ -1,0 +1,18 @@
+Version: 1.0.3
+Timestamp: 2024-12-24T22:24:27.846602
+Changes: parameter
+""setting 1 eta value""
+Evaluation Metrics:
+  - classification_report
+:               precision    recall  f1-score   support
+
+           0       0.22      0.01      0.02     12412
+           1       0.00      0.00      0.00      1889
+           2       0.14      0.00      0.01      7313
+           3       0.05      0.00      0.00      2779
+           4       0.60      0.99      0.74     36258
+
+    accuracy                           0.59     60651
+   macro avg       0.20      0.20      0.15     60651
+weighted avg       0.42      0.59      0.45     60651
+
