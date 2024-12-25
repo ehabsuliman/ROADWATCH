@@ -1,6 +1,7 @@
-Version: 1.0.1
-Timestamp: 2024-12-24T22:05:33.855912
+Version: 1.0.2
+Timestamp: 2024-12-24T22:20:48.985391
 Changes: parameter
+""setting a too small eta value""
 Evaluation Metrics:
   - classification_report
 :               precision    recall  f1-score   support
