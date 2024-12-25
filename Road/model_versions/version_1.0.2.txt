@@ -1,18 +1,15 @@
 Version: 1.0.2
-Timestamp: 2024-12-24T22:20:48.985391
+Timestamp: 2024-12-25T18:12:16.803146
 Changes: parameter
-""setting a too small eta value""
 Evaluation Metrics:
   - classification_report
 :               precision    recall  f1-score   support
 
-           0       0.21      0.01      0.02     12412
-           1       0.00      0.00      0.00      1889
-           2       0.15      0.00      0.01      7313
-           3       0.05      0.00      0.00      2779
-           4       0.60      0.99      0.74     36258
+           0       0.62      0.02      0.04     15191
+           1       0.69      0.01      0.01      9202
+           2       0.60      1.00      0.75     36258
 
-    accuracy                           0.59     60651
-   macro avg       0.20      0.20      0.15     60651
-weighted avg       0.42      0.59      0.45     60651
+    accuracy                           0.60     60651
+   macro avg       0.64      0.34      0.27     60651
+weighted avg       0.62      0.60      0.46     60651
 

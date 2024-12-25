@@ -1,18 +1,21 @@
 Version: 1.0.4
-Timestamp: 2024-12-24T22:27:22.654985
+Timestamp: 2024-12-25T15:44:57.968334
 Changes: parameter
-setting eta 10
+params = {"objective":'multi:softmax', "n_estimators":2000, "learning_rate": 0.1,
+          'max_depth': 1000, "subsample": 1,
+          "colsample_bytree": 1, "lambda": 3, "alpha": 0, "eval_metric":'rmse' 
+          } 
 Evaluation Metrics:
   - classification_report
 :               precision    recall  f1-score   support
 
-           0       0.20      1.00      0.34     12412
-           1       0.00      0.00      0.00      1889
-           2       0.16      0.00      0.00      7313
-           3       0.00      0.00      0.00      2779
-           4       0.00      0.00      0.00     36258
+           0       0.21      0.11      0.14     12412
+           1       0.03      0.27      0.06      1889
+           2       0.13      0.25      0.17      7313
+           3       0.05      0.20      0.08      2779
+           4       0.63      0.22      0.33     36258
 
     accuracy                           0.20     60651
-   macro avg       0.07      0.20      0.07     60651
-weighted avg       0.06      0.20      0.07     60651
+   macro avg       0.21      0.21      0.16     60651
+weighted avg       0.44      0.20      0.25     60651
 
