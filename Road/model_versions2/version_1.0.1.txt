@@ -1,0 +1,15 @@
+Version: 1.0.1
+Timestamp: 2024-12-26T15:47:07.045310
+Changes: parameter
+Evaluation Metrics:
+  - classification_report
+:               precision    recall  f1-score   support
+
+           0       0.26      0.21      0.23     15191
+           1       0.17      0.38      0.23      9202
+           2       0.62      0.48      0.54     36258
+
+    accuracy                           0.40     60651
+   macro avg       0.35      0.35      0.34     60651
+weighted avg       0.46      0.40      0.42     60651
+
