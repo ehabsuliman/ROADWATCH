@@ -11,8 +11,8 @@ class ModelVersionManager:
 
         os.makedirs(self.version_folder, exist_ok=True)
 
-    def save_version(self, changes, evaluation_metrics):
-        """Save a new version with changes and evaluation metrics into a new text file."""
+    def save_version(self, changes, evaluation_metrics, custom_filename=None):
+        """Save a new version with changes and evaluation metrics into a new .py file."""
         if changes == "algorithm":
             self.current_version["major"] += 1
             self.current_version["minor"] = 0
@@ -27,19 +27,22 @@ class ModelVersionManager:
 
         timestamp = datetime.now().isoformat()
         content = (
-            f"Version: {version_string}\n"
-            f"Timestamp: {timestamp}\n"
-            f"Changes: {changes}\n"
-            f"Evaluation Metrics:\n"
+            f"# Version: {version_string}\n"
+            f"# Timestamp: {timestamp}\n"
+            f"# Changes: {changes}\n"
+            f"# Evaluation Metrics:\n"
         )
         for metric, value in evaluation_metrics.items():
-            content += f"  - {metric}: {value}\n"
+            content += f"#   - {metric}: {value}\n"
 
-        filename = os.path.join(self.version_folder, f"version_{version_string}.txt")
-        with open(filename, "w") as file:
+        # If a custom filename is provided, use it. Otherwise, use the version string with .py extension
+        filename = custom_filename if custom_filename else f"version_{version_string}.py"
+        filepath = os.path.join(self.version_folder, filename)
+        
+        with open(filepath, "w") as file:
             file.write(content)
 
-        print(f"Version {version_string} saved to {filename}")
+        print(f"Version {version_string} saved to {filepath}")
 
     def reset_version(self):
         """Reset the version to 1.0.0."""
