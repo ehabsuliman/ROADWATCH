@@ -1,0 +1,16 @@
+# params = {'subsample': 0.8, 'scale_pos_weight': 1, 
+#  'objective': 'multi:softmax', 'num_class': 3, 'n_estimators': 200, 
+#  'max_depth': 3, 'learning_rate': 0.01, 'gamma': 0, 'device': 'cuda', 
+#  'colsample_bytree': 1.0}
+
+# using random_search v1
+
+             precision    recall  f1-score   support
+
+           0       0.26      0.15      0.20     15191
+           1       0.16      0.39      0.23      9202
+           2       0.62      0.51      0.56     36258
+
+    accuracy                           0.40     60651
+   macro avg       0.35      0.35      0.33     60651
+weighted avg       0.46      0.40      0.42     60651
