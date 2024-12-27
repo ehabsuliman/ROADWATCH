@@ -1,0 +1,14 @@
+print(classification_report(y_test, prediction))
+# without compute sample weight (and without any parameter)
+
+
+
+              precision    recall  f1-score   support
+
+           0       0.30      0.00      0.00     15191
+           1       0.00      0.00      0.00      9202
+           2       0.60      1.00      0.75     36258
+
+    accuracy                           0.60     60651
+   macro avg       0.30      0.33      0.25     60651
+weighted avg       0.43      0.60      0.45     60651
