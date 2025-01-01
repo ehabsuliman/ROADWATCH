@@ -1,0 +1,14 @@
+# model = CatBoostClassifier(iterations=100, depth=6, learning_rate=0.1,
+                            # loss_function='MultiClass', verbose= False )
+# with this parameter
+
+
+              precision    recall  f1-score   support
+
+           0       0.26      0.18      0.21     15191
+           1       0.17      0.38      0.23      9202
+           2       0.62      0.51      0.56     36258
+
+    accuracy                           0.41     60651
+   macro avg       0.35      0.35      0.33     60651
+weighted avg       0.46      0.41      0.42     60651
