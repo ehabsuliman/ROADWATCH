@@ -1,0 +1,13 @@
+tokenized_df['Word'] as input (X) and tokenized_df['label'] as target
+just 3 class (B-LOC), (B-STATE: 'B-open', 'B-close') (O)
+
+classification_report:
+              precision    recall  f1-score   support
+
+       B-LOC       0.95      0.98      0.96     15460
+     B-STATE       1.00      1.00      1.00      9063
+           O       0.99      0.98      0.98     36231
+
+    accuracy                           0.98     60754
+   macro avg       0.98      0.98      0.98     60754
+weighted avg       0.98      0.98      0.98     60754

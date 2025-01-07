@@ -1,0 +1,19 @@
+with 7 class as shown below
+X = tokenized_df['Word'] as and y = tokenized['label'] 
+and sample weighted because the data is imbalanced
+
+
+classification_report:
+              precision    recall  f1-score   support
+
+       B-LOC       0.95      0.98      0.96     12697
+     B-close       1.00      0.99      1.00      1762
+    B-inside       1.00      1.00      1.00       480
+      B-open       1.00      1.00      1.00      8333
+   B-outside       1.00      1.00      1.00       764
+       I-LOC       0.86      1.00      0.92      2763
+           O       0.99      0.97      0.98     33955
+
+    accuracy                           0.98     60754
+   macro avg       0.97      0.99      0.98     60754
+weighted avg       0.98      0.98      0.98     60754
