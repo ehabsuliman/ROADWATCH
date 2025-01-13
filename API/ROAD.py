@@ -5,7 +5,7 @@ import catboost
 import json
 
 # Replace with your bot's token
-BOT_TOKEN = "7917315228:AAFpcIq2HePtKTcCj9iMsRL978tlCdIxXlQ"
+BOT_TOKEN = ""
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{BOT_TOKEN}"
 
 # Load your CatBoost model
