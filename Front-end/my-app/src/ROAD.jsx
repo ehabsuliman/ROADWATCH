@@ -7,7 +7,7 @@ const Predictions = () => {
 
   useEffect(() => {
     // Fetch the predictions JSON file
-    fetch('/predictions_predictions.json')
+    fetch('/predictions_nrows.json')
       .then(response => {
         if (!response.ok) {
           throw new Error('Failed to load JSON');
