@@ -1,0 +1,216 @@
+import React from 'react';
+import Predictions from './ROAD.jsx';  // Make sure the path to ROAD is correct
+import './App.css'; // For your styling
+
+const App = () => {
+  return (
+    <div className="App">
+      <Predictions />  {/* This will render the Predictions component */}
+      </div>
+  );
+};
+
+export default App;
+App.js
+----------------------------
+ROAD.jsx
+import React, { useEffect, useState } from 'react';
+
+const Predictions = () => {
+  const [predictions, setPredictions] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    // Fetch the predictions JSON file
+    fetch('/predictions_predictions.json')
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Failed to load JSON');
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Original data:', data);
+
+        // Ensure data is in the correct format and handle any edge cases
+        if (data && typeof data === 'object') {
+          setPredictions(data); // Directly set the data without flattening
+        } else {
+          throw new Error('Invalid data structure');
+        }
+
+        setLoading(false);
+      })
+      .catch(error => {
+        console.error('Error loading predictions:', error);
+        setError(error);
+        setLoading(false);
+      });
+  }, []);
+
+  // Loading state
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  // Error state
+  if (error) {
+    return <div>Error loading predictions: {error.message}</div>;
+  }
+
+  return (
+    <div className="right-half-container">
+      <h2>Predictions</h2>
+      {Object.keys(predictions).map((sentenceKey, index) => {
+        const sentence = predictions[sentenceKey]; // Get the sentence data
+
+        // Ensure sentence is an array before mapping over it
+        if (!Array.isArray(sentence)) {
+          return <div key={index}>Invalid sentence format for {sentenceKey}</div>;
+        }
+
+        return (
+          <div className="sentence" key={index}>
+            <div className="message">
+              <div>
+                {/* Map over the words and predicted labels for each sentence */}
+                <span className="sentence-with-labels">
+                  {sentence.map((wordPrediction, i) => {
+                    const word = wordPrediction.Word;
+                    const entityClass = wordPrediction["Predicted Label"];
+
+                    // If the label is "O", render the word without any style or box
+                    if (entityClass === "O") {
+                      return (
+                        <span key={i} className="word">{word}</span>
+                      );
+                    }
+
+                    // Otherwise, apply the style and label
+                    return (
+                      <span key={i} className="word-with-label">
+                        <span className={`word`}>{word}</span>
+                        <span className={`Predicted Label ${entityClass}`}>{entityClass}</span>
+                      </span>
+                    );
+                  })}
+                </span>
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+export default Predictions;
+------------------
+App.css
+/* Main container for the right-half of the top half of the screen */
+.right-half-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 60%;
+  overflow-y: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 10;
+  background-color: #FEF9E1;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Main container for each sentence */
+.sentence {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  direction: rtl; /* Right-to-left for Arabic */
+  text-align: right;
+  background-color: #E5D0AC;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-color: #A31D1D;
+}
+
+/* Styling for the original message */
+.message {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+/* Remove the box and background from the word and label */
+.word-with-label {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  margin: 2px;
+  direction: rtl;
+  border-radius: 5px;
+}
+
+/* Styling for the word */
+.word {
+  font-weight: bold;
+  margin-right: 4px;
+  color: #A31D1D;
+}
+
+/* Styling for the predicted label */
+.label {
+  font-size: 0.9em;
+  padding: 2px 6px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+/* Color coding for labels */
+
+/* B-LOC Styling (for location) */
+.B-LOC {
+  background-color: #E38E49;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/* I-LOC Styling (for inside location) */
+.I-LOC {
+  background-color: #4c7fcb;
+  color: #D4EBF8;
+  border-radius: 5px;
+}
+
+/* When B-LOC contains B-open, use a circular light green background */
+.B-open {
+  background-color: #15591a;
+  color: #fff; /* White text for B-open */
+  border-radius: 5px;
+}
+
+/* Add style for B-close, B-inside, B-outside */
+.B-close {
+  background-color: #dd655d;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.B-inside {
+  background-color: #613d90;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.B-outside {
+  background-color: #3835e3;
+  color: #fff;
+  border-radius: 5px;
+}
+
