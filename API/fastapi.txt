@@ -1,0 +1,133 @@
+import os
+from telethon import TelegramClient
+import pandas as pd
+import re
+from catboost import CatBoostClassifier, Pool
+import json
+import asyncio
+
+# Telegram credentials
+api_id = 23718390  # From my.telegram.org
+api_hash = 'cf55a5a354f98a2233870cfe0e33cba4'  # From my.telegram.org
+channel_name = 'ahwalaltreq'  # Channel username or ID
+
+# Initialize the Telegram client
+client = TelegramClient('session_name', api_id, api_hash)
+
+# Load the trained CatBoost model
+load_catboost = CatBoostClassifier()
+load_catboost.load_model('/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/API/catboost_model_98.cbm')
+
+# Function to clean up the message (removing emojis, special characters, etc.)
+def remove_emojis(text):
+    if isinstance(text, str):
+        return re.sub(r'[^\w\s,.!?؛:\n]', '', text)
+    return text
+
+# Function to tokenize the cleaned text
+def tokenize(text):
+    return re.findall(r'\b\w+\b', text)
+
+# Function to process the scraped messages
+async def process_channel_messages():
+    # Scrape messages from the channel, starting from the latest
+    async for message in client.iter_messages(channel_name, reverse=True):  # reverse=True to get messages starting from the latest
+        print(f"Processing message: {message.text}")
+
+        # Save the message to a CSV file for processing (appending new messages)
+        df = pd.DataFrame([message.text], columns=["message"])
+
+        # Append the new message to the existing CSV file
+        df.to_csv('messages.csv', mode='a', header=False, index=False)
+
+        # Now, apply pre-processing and prediction
+        processed_data = get_predictions(df)
+
+        # Save the processed predictions as JSON
+        output_json = prepare_prediction(processed_data)
+
+        print("Processed message predictions:", output_json)
+
+        # Specify the desired path to save the JSON file
+        output_path = '/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/Front-end/my-app/public/predictions.json'
+
+        # Ensure the directory exists
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+        # Save the JSON output to the specified path
+        with open(output_path, "w", encoding="utf-8") as f:
+            f.write(output_json)
+
+# Function to get predictions
+def get_predictions(data):
+    # Apply the remove_emojis function to the 'message' column
+    data['message'] = data['message'].apply(remove_emojis)
+
+    # Initialize empty lists for storing the tokenized data
+    sentences_list = []
+    words_list = []
+    original_messages = []
+
+    # Iterate over each row of the DataFrame and tokenize
+    for index, row in data.iterrows():
+        tokens = tokenize(row['message'])
+        
+        sentences_list.extend([index + 1] * len(tokens))  # Sentence number corresponding to each token
+        words_list.extend(tokens)  # The tokens from the message
+        original_messages.extend([row['message']] * len(tokens))  # Original message for each token
+
+    # Create a new DataFrame with the tokenized data
+    tokenized_data = pd.DataFrame({
+        'Sentence #': sentences_list,
+        'Word': words_list,
+        'Original Message': original_messages
+    })
+
+    # Prepare the Pool for prediction (indicating that 'Word' is a categorical feature)
+    pool = Pool(data=tokenized_data[['Word']], cat_features=['Word'])
+
+    # Get predictions from the model
+    predictions = load_catboost.predict(pool)
+
+    # Ensure that predictions are 1D
+    if predictions.ndim > 1:
+        predictions = predictions.flatten()
+
+    # Add predicted words to the tokenized DataFrame
+    tokenized_data['Predicted Word'] = predictions
+
+    # Save the results to a CSV file (appending new predictions)
+    tokenized_data.to_csv('predictions.csv', mode='a', header=False, index=False)
+
+    return tokenized_data
+
+# Convert predictions to a structured JSON format
+def prepare_prediction(tokenized_data):
+    predictions_json = {}
+
+    # Group the data by 'Sentence #' to organize by sentence
+    grouped = tokenized_data.groupby('Sentence #')
+
+    for sentence_id, group in grouped:
+        sentence_dict = []
+        for _, row in group.iterrows():
+            word_info = {
+                "Word": row['Word'],
+                "Original Message": row['Original Message'],
+                "Predicted Label": row['Predicted Word']
+            }
+            sentence_dict.append(word_info)
+
+        predictions_json[f"Sentence {sentence_id}"] = sentence_dict
+
+    return json.dumps(predictions_json, indent=4, ensure_ascii=False)
+
+# Run the Telegram client
+async def main():
+    await client.start()
+    await process_channel_messages()
+
+# If you want to make the bot periodically scrape messages, you can run this:
+if __name__ == '__main__':
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(main())
