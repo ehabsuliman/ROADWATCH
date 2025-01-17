@@ -1,0 +1,44 @@
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start; /* Align to the left side */
+    padding: 20px; /* Optional: Add padding to avoid content touching the screen edges */
+    width: 100%; /* Ensure it takes up the full width of the parent container */
+  }
+  
+  .sentence-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .word-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+  
+  .circle.green {
+    background-color: green;
+  }
+  
+  .circle.red {
+    background-color: red;
+  }
+  
+  .circle.gray {
+    background-color: gray;
+  }
+  
+  .word {
+    font-size: 16px;
+  }
+  
