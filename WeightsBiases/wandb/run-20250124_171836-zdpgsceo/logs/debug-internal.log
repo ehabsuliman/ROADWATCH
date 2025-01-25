@@ -1,0 +1,164 @@
+{"time":"2025-01-24T17:18:36.479717+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_171836-zdpgsceo/logs/debug-core.log"}
+{"time":"2025-01-24T17:18:36.62554+02:00","level":"INFO","msg":"created new stream","id":"zdpgsceo"}
+{"time":"2025-01-24T17:18:36.625663+02:00","level":"INFO","msg":"stream: started","id":"zdpgsceo"}
+{"time":"2025-01-24T17:18:36.625713+02:00","level":"INFO","msg":"sender: started","stream_id":"zdpgsceo"}
+{"time":"2025-01-24T17:18:36.625677+02:00","level":"INFO","msg":"handler: started","stream_id":"zdpgsceo"}
+{"time":"2025-01-24T17:18:36.625869+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"zdpgsceo"}
+{"time":"2025-01-24T17:18:37.149025+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T17:18:37.642044+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:20:40.277881+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:20:40.288849+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:20:43.038773+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:20:43.048207+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:23:12.663268+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:26:04.180845+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:29:16.042598+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:29:16.978416+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:30:38.310885+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/ehabsulima23-an-najah-national-university/ROADWATCH/zdpgsceo/file_stream"}
+{"time":"2025-01-24T17:30:38.31096+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/ehabsulima23-an-najah-national-university/ROADWATCH/zdpgsceo/file_stream: {\"error\":\"run ROADWATCH/zdpgsceo not found while streaming file\"}"}
+{"time":"2025-01-24T17:30:57.318918+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:30:57.334448+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:30:57.509299+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:30:59.906006+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:31:04.595656+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:31:05.484019+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:31:05.497375+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:31:14.518479+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:31:24.499088+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:31:24.513077+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:31:32.777871+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:31:37.885684+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:31:37.900643+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:32:05.890402+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:32:25.522454+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:32:25.538366+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:33:06.079933+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:34:06.269592+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:34:22.106174+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:34:22.580098+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:35:06.431334+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:36:06.630139+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:37:06.81944+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:37:14.528051+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:37:14.876251+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:38:02.751611+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:38:02.77039+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:38:07.016007+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:39:07.231765+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:40:07.436634+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:40:49.171452+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:40:49.192038+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:40:57.300786+02:00","level":"WARN","msg":"sender: taking a long time","seconds":600.000210503,"work":"WorkRecord(*service_go_proto.Record_Telemetry); Control(connection_id:\"127.0.0.1:51142\")"}
+{"time":"2025-01-24T17:41:07.622698+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:41:20.081294+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:41:20.091395+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:41:22.390567+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:41:22.398899+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:41:25.905348+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:41:25.922083+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:42:07.804427+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:42:53.780955+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:42:53.789716+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:42:55.806047+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:42:55.813349+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:43:07.997706+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:43:18.117349+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:44:08.200101+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:45:08.42666+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:46:08.6124+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:47:08.793312+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:47:08.793518+02:00","level":"ERROR","msg":"sender: sendConfig:","error":"api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s)"}
+{"time":"2025-01-24T17:47:08.793705+02:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":971.49441391,"work":"WorkRecord(*service_go_proto.Record_Telemetry); Control(connection_id:\"127.0.0.1:51142\")"}
+{"time":"2025-01-24T17:47:09.048383+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:47:09.23302+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:47:11.550993+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:47:15.828426+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:47:24.211371+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:47:41.634174+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:48:19.736544+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:49:19.927244+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:50:20.137731+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T17:51:20.334798+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T18:22:42.882639+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T19:30:43.039285+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T20:30:47.630137+02:00","level":"INFO","msg":"api: retrying HTTP error","status":409,"url":"https://api.wandb.ai/graphql","body":"{\"errors\":[{\"message\":\"run zdpgsceo was previously created and deleted; try a new run name\",\"path\":[\"upsertBucket\"]}],\"data\":{\"upsertBucket\":null}}"}
+{"time":"2025-01-24T20:52:50.961509+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T20:55:31.254074+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T20:58:48.530041+02:00","level":"WARN","msg":"sender: taking a long time","seconds":600.001225182,"work":"WorkRecord(*service_go_proto.Record_Config); Control(connection_id:\"127.0.0.1:51142\")"}
+{"time":"2025-01-24T20:59:51.975541+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:04:12.534895+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:09:25.968153+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:12:56.355393+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:18:07.169577+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:22:27.728186+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:50.9807+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:50.985428+02:00","level":"ERROR","msg":"sender: sendConfig:","error":"api: failed sending: POST https://api.wandb.ai/graphql giving up after 21 attempt(s): Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:50.998159+02:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":976.313141858,"work":"WorkRecord(*service_go_proto.Record_Config); Control(connection_id:\"127.0.0.1:51142\")"}
+{"time":"2025-01-24T21:25:51.005593+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:51.015174+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:51.054256+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:53.20029+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:53.32201+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:53.381462+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:57.901299+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:58.182905+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:25:58.288999+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:26:06.453629+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:26:07.409899+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:26:07.805403+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-24T21:26:24.902115+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-24T21:26:24.905428+02:00","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404 Not Found: {\"errors\":[{\"message\":\"run ROADWATCH/zdpgsceo not found during createRunFiles\",\"path\":[\"createRunFiles\"]}],\"data\":{\"createRunFiles\":null}}"}
+{"time":"2025-01-24T21:26:26.580322+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-01-24T21:55:06.742514+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-24T21:56:29.192397+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-24T21:56:39.791915+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.143:51828->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-01-24T22:55:22.359836+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.143:51854->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-01-24T23:56:33.688351+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-01-25T00:57:20.276606+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.143:51921->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-01-25T00:57:22.453187+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T00:57:27.16373+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T00:58:26.751804+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T00:59:34.111616+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T01:02:39.580965+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T01:07:00.126857+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T01:11:20.785123+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T01:55:18.270202+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T01:58:19.98445+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T02:59:29.456714+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T05:00:12.030852+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T05:39:13.145689+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T05:52:25.790449+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T06:55:21.943338+02:00","level":"WARN","msg":"sender: taking a long time","seconds":600.003224414,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"50552htmgmhg\"  connection_id:\"127.0.0.1:51142\")"}
+{"time":"2025-01-25T06:55:49.906622+02:00","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":627.97830753,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true  mailbox_slot:\"50552htmgmhg\"  connection_id:\"127.0.0.1:51142\")"}
+{"time":"2025-01-25T08:56:34.816694+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 192.168.1.143:52129->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-01-25T08:56:36.921449+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T08:56:41.623901+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T09:57:17.923496+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T09:57:36.722029+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T11:59:39.118139+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-01-25T12:52:36.254413+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T12:52:36.4287+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:01:14.681712+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:01:14.704283+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:07:56.019783+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:07:56.068201+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:07:56.077872+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:07:56.092643+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:07:58.165024+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:07:58.178604+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:07:58.189291+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:07:58.213619+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:07:59.490486+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:07:59.526466+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:08:00.497164+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:08:00.58504+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:08:02.100207+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:08:02.120847+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:08:32.47269+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:08:32.482226+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:08:32.493576+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:08:32.502801+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:08:34.240342+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:08:34.249584+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:08:37.425323+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:08:37.445949+02:00","level":"INFO","msg":"Pausing system monitor"}

@@ -1,0 +1,18 @@
+{"time":"2025-01-24T15:51:51.081205+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_155151-n3z7x1bt/logs/debug-core.log"}
+{"time":"2025-01-24T15:51:51.107926+02:00","level":"INFO","msg":"created new stream","id":"n3z7x1bt"}
+{"time":"2025-01-24T15:51:51.108019+02:00","level":"INFO","msg":"stream: started","id":"n3z7x1bt"}
+{"time":"2025-01-24T15:51:51.108107+02:00","level":"INFO","msg":"handler: started","stream_id":"n3z7x1bt"}
+{"time":"2025-01-24T15:51:51.10813+02:00","level":"INFO","msg":"sender: started","stream_id":"n3z7x1bt"}
+{"time":"2025-01-24T15:51:51.108216+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"n3z7x1bt"}
+{"time":"2025-01-24T15:51:51.723491+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T15:51:52.283635+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T15:51:54.979468+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T15:52:00.298127+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T15:52:00.298182+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T15:52:01.301584+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-n3z7x1bt-confusion_matrix","runtime_seconds":1.5351407049999999},{"desc":"uploading config.yaml","runtime_seconds":0.288459387,"progress":"724B/724B"}],"total_operations":2}}
+{"time":"2025-01-24T15:52:02.217807+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T15:52:03.632024+02:00","level":"INFO","msg":"stream: closing","id":"n3z7x1bt"}
+{"time":"2025-01-24T15:52:03.632052+02:00","level":"INFO","msg":"handler: closed","stream_id":"n3z7x1bt"}
+{"time":"2025-01-24T15:52:03.632071+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"n3z7x1bt"}
+{"time":"2025-01-24T15:52:03.632078+02:00","level":"INFO","msg":"sender: closed","stream_id":"n3z7x1bt"}
+{"time":"2025-01-24T15:52:03.632238+02:00","level":"INFO","msg":"stream: closed","id":"n3z7x1bt"}

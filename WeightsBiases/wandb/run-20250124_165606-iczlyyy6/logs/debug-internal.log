@@ -1,0 +1,18 @@
+{"time":"2025-01-24T16:56:06.75211+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_165606-iczlyyy6/logs/debug-core.log"}
+{"time":"2025-01-24T16:56:06.774262+02:00","level":"INFO","msg":"created new stream","id":"iczlyyy6"}
+{"time":"2025-01-24T16:56:06.774381+02:00","level":"INFO","msg":"stream: started","id":"iczlyyy6"}
+{"time":"2025-01-24T16:56:06.774443+02:00","level":"INFO","msg":"sender: started","stream_id":"iczlyyy6"}
+{"time":"2025-01-24T16:56:06.774429+02:00","level":"INFO","msg":"handler: started","stream_id":"iczlyyy6"}
+{"time":"2025-01-24T16:56:06.774501+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"iczlyyy6"}
+{"time":"2025-01-24T16:56:07.348825+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T16:56:07.751886+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:56:12.069058+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:58:52.914277+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T16:58:52.914355+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T16:58:53.838829+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T16:58:53.919863+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 3-10, summary","runtime_seconds":0.080867867}],"total_operations":1}}
+{"time":"2025-01-24T16:58:55.170206+02:00","level":"INFO","msg":"stream: closing","id":"iczlyyy6"}
+{"time":"2025-01-24T16:58:55.17024+02:00","level":"INFO","msg":"handler: closed","stream_id":"iczlyyy6"}
+{"time":"2025-01-24T16:58:55.170261+02:00","level":"INFO","msg":"sender: closed","stream_id":"iczlyyy6"}
+{"time":"2025-01-24T16:58:55.170258+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"iczlyyy6"}
+{"time":"2025-01-24T16:58:55.170437+02:00","level":"INFO","msg":"stream: closed","id":"iczlyyy6"}

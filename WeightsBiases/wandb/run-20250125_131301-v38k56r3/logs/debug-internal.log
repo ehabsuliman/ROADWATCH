@@ -1,0 +1,10 @@
+{"time":"2025-01-25T13:13:01.88271+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250125_131301-v38k56r3/logs/debug-core.log"}
+{"time":"2025-01-25T13:13:01.904506+02:00","level":"INFO","msg":"created new stream","id":"v38k56r3"}
+{"time":"2025-01-25T13:13:01.904703+02:00","level":"INFO","msg":"handler: started","stream_id":"v38k56r3"}
+{"time":"2025-01-25T13:13:01.904841+02:00","level":"INFO","msg":"stream: started","id":"v38k56r3"}
+{"time":"2025-01-25T13:13:01.905045+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"v38k56r3"}
+{"time":"2025-01-25T13:13:01.905059+02:00","level":"INFO","msg":"sender: started","stream_id":"v38k56r3"}
+{"time":"2025-01-25T13:13:02.402663+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-25T13:13:02.822424+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-25T13:13:14.018779+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-25T13:15:50.657707+02:00","level":"INFO","msg":"Pausing system monitor"}

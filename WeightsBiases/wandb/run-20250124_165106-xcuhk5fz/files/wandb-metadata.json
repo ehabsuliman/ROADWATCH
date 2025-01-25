@@ -1,0 +1,35 @@
+{
+  "os":  "macOS-15.0-x86_64-i386-64bit",
+  "python":  "CPython 3.9.6",
+  "startedAt":  "2025-01-24T14:51:06.489924Z",
+  "program":  "/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/w&b.ipynb",
+  "codePath":  "W&B/w&b.ipynb",
+  "git":  {
+    "remote":  "git@github.com:ehabsuliman/ROADWATCH.git",
+    "commit":  "003ef4d603eaf20d6cb16240ee141978ab753c07"
+  },
+  "email":  "ehabsulima23@gmail.com",
+  "root":  "/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B",
+  "host":  "Macs-MacBook-Pro.local",
+  "executable":  "/Library/Developer/CommandLineTools/usr/bin/python3",
+  "codePathLocal":  "w&b.ipynb",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "499963174912",
+      "used":  "148405628928"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "499963174912",
+      "used":  "148405628928"
+    }
+  },
+  "memory":  {
+    "total":  "34359738368"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  }
+}

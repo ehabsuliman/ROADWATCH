@@ -1,0 +1,38 @@
+{"time":"2025-01-24T15:54:44.084115+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_155444-6yexe3i5/logs/debug-core.log"}
+{"time":"2025-01-24T15:54:44.109111+02:00","level":"INFO","msg":"created new stream","id":"6yexe3i5"}
+{"time":"2025-01-24T15:54:44.109234+02:00","level":"INFO","msg":"stream: started","id":"6yexe3i5"}
+{"time":"2025-01-24T15:54:44.109284+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"6yexe3i5"}
+{"time":"2025-01-24T15:54:44.109324+02:00","level":"INFO","msg":"handler: started","stream_id":"6yexe3i5"}
+{"time":"2025-01-24T15:54:44.109405+02:00","level":"INFO","msg":"sender: started","stream_id":"6yexe3i5"}
+{"time":"2025-01-24T15:54:44.611703+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T15:54:44.99346+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:01:04.690534+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:01:04.706238+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:01:38.589518+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:01:38.601272+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:02:00.606471+02:00","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/files/ehabsulima23-an-najah-national-university/ROADWATCH/6yexe3i5/file_stream"}
+{"time":"2025-01-24T16:02:00.606599+02:00","level":"ERROR+4","msg":"filestream: fatal error: filestream: failed to upload: 404 Not Found path=files/ehabsulima23-an-najah-national-university/ROADWATCH/6yexe3i5/file_stream: {\"error\":\"project ehabsulima23-an-najah-national-university/ROADWATCH not found while streaming file\"}"}
+{"time":"2025-01-24T16:02:05.615463+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:02:05.627673+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:02:15.607721+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:02:15.619448+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:03:59.176125+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:04:37.011614+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:05:36.213432+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:06:09.545298+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:06:49.571426+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:07:23.319294+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:08:16.388512+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:08:49.587868+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:09:30.977222+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:10:23.484113+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:11:37.585961+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:12:29.136859+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T16:12:29.136963+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T16:12:29.847349+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T16:12:29.853813+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-01-24T16:12:30.864811+02:00","level":"INFO","msg":"stream: closing","id":"6yexe3i5"}
+{"time":"2025-01-24T16:12:30.86484+02:00","level":"INFO","msg":"handler: closed","stream_id":"6yexe3i5"}
+{"time":"2025-01-24T16:12:30.864861+02:00","level":"INFO","msg":"sender: closed","stream_id":"6yexe3i5"}
+{"time":"2025-01-24T16:12:30.864856+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"6yexe3i5"}
+{"time":"2025-01-24T16:12:30.865097+02:00","level":"INFO","msg":"stream: closed","id":"6yexe3i5"}

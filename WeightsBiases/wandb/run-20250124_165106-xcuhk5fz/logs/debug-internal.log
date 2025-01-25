@@ -1,0 +1,18 @@
+{"time":"2025-01-24T16:51:06.488898+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_165106-xcuhk5fz/logs/debug-core.log"}
+{"time":"2025-01-24T16:51:06.506625+02:00","level":"INFO","msg":"created new stream","id":"xcuhk5fz"}
+{"time":"2025-01-24T16:51:06.506707+02:00","level":"INFO","msg":"stream: started","id":"xcuhk5fz"}
+{"time":"2025-01-24T16:51:06.506742+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"xcuhk5fz"}
+{"time":"2025-01-24T16:51:06.506776+02:00","level":"INFO","msg":"handler: started","stream_id":"xcuhk5fz"}
+{"time":"2025-01-24T16:51:06.506817+02:00","level":"INFO","msg":"sender: started","stream_id":"xcuhk5fz"}
+{"time":"2025-01-24T16:51:07.058195+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T16:51:07.474707+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T16:51:09.563408+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T16:52:03.656251+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T16:52:03.656358+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T16:52:04.661191+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/plotly/roc_curve_3_0a30e87069dd57196792.plotly.json","runtime_seconds":1.653982056,"progress":"800.0KB/1.0MB"}],"total_operations":1}}
+{"time":"2025-01-24T16:52:05.3885+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T16:52:06.88754+02:00","level":"INFO","msg":"stream: closing","id":"xcuhk5fz"}
+{"time":"2025-01-24T16:52:06.887572+02:00","level":"INFO","msg":"handler: closed","stream_id":"xcuhk5fz"}
+{"time":"2025-01-24T16:52:06.887593+02:00","level":"INFO","msg":"sender: closed","stream_id":"xcuhk5fz"}
+{"time":"2025-01-24T16:52:06.887593+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xcuhk5fz"}
+{"time":"2025-01-24T16:52:06.887798+02:00","level":"INFO","msg":"stream: closed","id":"xcuhk5fz"}

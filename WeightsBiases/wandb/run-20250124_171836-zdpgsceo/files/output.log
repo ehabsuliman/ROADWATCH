@@ -1,0 +1,40 @@
+0:	learn: 1.4062474	test: 1.4029169	best: 1.4029169 (0)	total: 402ms	remaining: 6m 41s
+100:	learn: 0.0600476	test: 0.0492843	best: 0.0492843 (100)	total: 18.4s	remaining: 2m 43s
+200:	learn: 0.0593382	test: 0.0487041	best: 0.0487041 (200)	total: 36.9s	remaining: 2m 26s
+300:	learn: 0.0591527	test: 0.0486334	best: 0.0486317 (291)	total: 52.8s	remaining: 2m 2s
+400:	learn: 0.0590463	test: 0.0486147	best: 0.0486137 (370)	total: 1m 10s	remaining: 1m 44s
+500:	learn: 0.0589935	test: 0.0486127	best: 0.0486091 (449)	total: 1m 26s	remaining: 1m 25s
+600:	learn: 0.0589478	test: 0.0486017	best: 0.0486017 (600)	total: 1m 43s	remaining: 1m 8s
+700:	learn: 0.0589189	test: 0.0486044	best: 0.0486017 (600)	total: 1m 59s	remaining: 51s
+800:	learn: 0.0588939	test: 0.0485997	best: 0.0485993 (797)	total: 2m 15s	remaining: 33.7s
+900:	learn: 0.0588810	test: 0.0486028	best: 0.0485993 (797)	total: 2m 31s	remaining: 16.6s
+999:	learn: 0.0588629	test: 0.0485998	best: 0.0485993 (797)	total: 2m 46s	remaining: 0us
+
+bestTest = 0.04859930965
+bestIteration = 797
+
+Shrink model to first 798 iterations.
+/Users/mac2/Library/Python/3.9/lib/python/site-packages/plotly/matplotlylib/renderer.py:609: UserWarning:
+
+I found a path object that I don't think is part of a bar chart. Ignoring.
+
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+0:	learn: 1.4062474	test: 1.4029169	best: 1.4029169 (0)	total: 173ms	remaining: 2m 52s
+100:	learn: 0.0600476	test: 0.0492843	best: 0.0492843 (100)	total: 14.6s	remaining: 2m 9s
+200:	learn: 0.0593382	test: 0.0487041	best: 0.0487041 (200)	total: 27.2s	remaining: 1m 48s
+300:	learn: 0.0591527	test: 0.0486334	best: 0.0486317 (291)	total: 39.8s	remaining: 1m 32s
+400:	learn: 0.0590463	test: 0.0486147	best: 0.0486137 (370)	total: 52.3s	remaining: 1m 18s
+500:	learn: 0.0589935	test: 0.0486127	best: 0.0486091 (449)	total: 1m 5s	remaining: 1m 5s
+600:	learn: 0.0589478	test: 0.0486017	best: 0.0486017 (600)	total: 1m 18s	remaining: 52s
+700:	learn: 0.0589189	test: 0.0486044	best: 0.0486017 (600)	total: 1m 31s	remaining: 39.2s
+800:	learn: 0.0588939	test: 0.0485997	best: 0.0485993 (797)	total: 1m 44s	remaining: 26s
+900:	learn: 0.0588810	test: 0.0486028	best: 0.0485993 (797)	total: 1m 57s	remaining: 13s
+999:	learn: 0.0588629	test: 0.0485998	best: 0.0485993 (797)	total: 2m 14s	remaining: 0us
+
+bestTest = 0.04859930965
+bestIteration = 797
+
+Shrink model to first 798 iterations.
+/Users/mac2/Library/Python/3.9/lib/python/site-packages/plotly/matplotlylib/renderer.py:609: UserWarning:
+
+I found a path object that I don't think is part of a bar chart. Ignoring.

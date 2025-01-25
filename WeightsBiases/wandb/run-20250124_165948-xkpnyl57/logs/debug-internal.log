@@ -1,0 +1,28 @@
+{"time":"2025-01-24T16:59:48.439842+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_165948-xkpnyl57/logs/debug-core.log"}
+{"time":"2025-01-24T16:59:48.462266+02:00","level":"INFO","msg":"created new stream","id":"xkpnyl57"}
+{"time":"2025-01-24T16:59:48.462418+02:00","level":"INFO","msg":"stream: started","id":"xkpnyl57"}
+{"time":"2025-01-24T16:59:48.462482+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"xkpnyl57"}
+{"time":"2025-01-24T16:59:48.462588+02:00","level":"INFO","msg":"handler: started","stream_id":"xkpnyl57"}
+{"time":"2025-01-24T16:59:48.462618+02:00","level":"INFO","msg":"sender: started","stream_id":"xkpnyl57"}
+{"time":"2025-01-24T16:59:48.993582+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T16:59:49.438026+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:01:22.088209+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:02:16.318783+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:03:07.406198+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:04:01.805488+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:04:25.82228+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:04:25.832766+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:04:31.899646+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:04:32.437913+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:04:41.539269+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:05:35.07979+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T17:06:51.509115+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T17:07:46.255959+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T17:07:46.256009+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T17:07:47.260296+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-xkpnyl57-confusion_matrix","runtime_seconds":2.086131939},{"desc":"uploading media/plotly/roc_curve_2_255e4ef80a6c058328c6.plotly.json","runtime_seconds":0.989806757,"progress":"858.8KB/858.8KB"}],"total_operations":2}}
+{"time":"2025-01-24T17:07:47.695814+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T17:07:49.085722+02:00","level":"INFO","msg":"stream: closing","id":"xkpnyl57"}
+{"time":"2025-01-24T17:07:49.085754+02:00","level":"INFO","msg":"handler: closed","stream_id":"xkpnyl57"}
+{"time":"2025-01-24T17:07:49.085775+02:00","level":"INFO","msg":"sender: closed","stream_id":"xkpnyl57"}
+{"time":"2025-01-24T17:07:49.085769+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xkpnyl57"}
+{"time":"2025-01-24T17:07:49.085923+02:00","level":"INFO","msg":"stream: closed","id":"xkpnyl57"}

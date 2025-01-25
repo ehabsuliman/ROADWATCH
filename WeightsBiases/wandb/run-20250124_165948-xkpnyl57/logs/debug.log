@@ -1,0 +1,72 @@
+2025-01-24 16:59:48,432 INFO    MainThread:5755 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_165948-xkpnyl57/logs/debug.log
+2025-01-24 16:59:48,433 INFO    MainThread:5755 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_165948-xkpnyl57/logs/debug-internal.log
+2025-01-24 16:59:48,434 INFO    MainThread:5755 [wandb_init.py:monkeypatch_ipython():576] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x1585b3940>
+2025-01-24 16:59:48,434 INFO    MainThread:5755 [wandb_init.py:init():743] calling init triggers
+2025-01-24 16:59:48,435 INFO    MainThread:5755 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {}
+2025-01-24 16:59:48,436 INFO    MainThread:5755 [wandb_init.py:init():776] starting backend
+2025-01-24 16:59:48,437 INFO    MainThread:5755 [wandb_init.py:init():780] sending inform_init request
+2025-01-24 16:59:48,439 INFO    MainThread:5755 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-01-24 16:59:48,440 INFO    MainThread:5755 [wandb_init.py:init():795] backend started and connected
+2025-01-24 16:59:48,443 INFO    MainThread:5755 [wandb_run.py:_label_probe_notebook():1213] probe notebook
+2025-01-24 16:59:48,446 INFO    MainThread:5755 [wandb_init.py:init():888] updated telemetry
+2025-01-24 16:59:48,563 INFO    MainThread:5755 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-01-24 16:59:48,989 INFO    MainThread:5755 [wandb_init.py:init():967] starting run threads in backend
+2025-01-24 16:59:49,425 INFO    MainThread:5755 [wandb_run.py:_console_start():2409] atexit reg
+2025-01-24 16:59:49,426 INFO    MainThread:5755 [wandb_run.py:_redirect():2259] redirect: wrap_raw
+2025-01-24 16:59:49,427 INFO    MainThread:5755 [wandb_run.py:_redirect():2324] Wrapping output streams.
+2025-01-24 16:59:49,428 INFO    MainThread:5755 [wandb_run.py:_redirect():2349] Redirects installed.
+2025-01-24 16:59:49,431 INFO    MainThread:5755 [wandb_init.py:init():1009] run started, returning control to user process
+2025-01-24 16:59:49,434 INFO    MainThread:5755 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-01-24 16:59:49,436 INFO    MainThread:5755 [wandb_init.py:_pause_backend():541] pausing backend
+2025-01-24 17:01:22,086 INFO    MainThread:5755 [wandb_init.py:_resume_backend():546] resuming backend
+2025-01-24 17:02:16,316 INFO    MainThread:5755 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-01-24 17:02:16,318 INFO    MainThread:5755 [wandb_init.py:_pause_backend():541] pausing backend
+2025-01-24 17:03:07,404 INFO    MainThread:5755 [wandb_init.py:_resume_backend():546] resuming backend
+2025-01-24 17:03:07,417 INFO    MainThread:5755 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_170307-ajy2058v/logs/debug.log
+2025-01-24 17:03:07,418 INFO    MainThread:5755 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_170307-ajy2058v/logs/debug-internal.log
+2025-01-24 17:03:07,418 INFO    MainThread:5755 [wandb_init.py:init():743] calling init triggers
+2025-01-24 17:03:07,419 INFO    MainThread:5755 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {}
+2025-01-24 17:03:07,419 INFO    MainThread:5755 [wandb_init.py:init():768] wandb.init() called when a run is still active
+2025-01-24 17:04:01,803 INFO    MainThread:5755 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-01-24 17:04:01,804 INFO    MainThread:5755 [wandb_init.py:_pause_backend():541] pausing backend
+2025-01-24 17:04:25,820 INFO    MainThread:5755 [wandb_init.py:_resume_backend():546] resuming backend
+2025-01-24 17:04:25,828 INFO    MainThread:5755 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-01-24 17:04:25,830 INFO    MainThread:5755 [wandb_init.py:_pause_backend():541] pausing backend
+2025-01-24 17:04:31,896 INFO    MainThread:5755 [wandb_init.py:_resume_backend():546] resuming backend
+2025-01-24 17:04:31,912 INFO    MainThread:5755 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_170431-3ns7cuaf/logs/debug.log
+2025-01-24 17:04:31,913 INFO    MainThread:5755 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_170431-3ns7cuaf/logs/debug-internal.log
+2025-01-24 17:04:31,915 INFO    MainThread:5755 [wandb_init.py:init():743] calling init triggers
+2025-01-24 17:04:31,917 INFO    MainThread:5755 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {}
+2025-01-24 17:04:31,918 INFO    MainThread:5755 [wandb_init.py:init():768] wandb.init() called when a run is still active
+2025-01-24 17:04:32,435 INFO    MainThread:5755 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-01-24 17:04:32,437 INFO    MainThread:5755 [wandb_init.py:_pause_backend():541] pausing backend
+2025-01-24 17:04:41,536 INFO    MainThread:5755 [wandb_init.py:_resume_backend():546] resuming backend
+2025-01-24 17:04:41,549 INFO    MainThread:5755 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_170441-2sbpunhb/logs/debug.log
+2025-01-24 17:04:41,550 INFO    MainThread:5755 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_170441-2sbpunhb/logs/debug-internal.log
+2025-01-24 17:04:41,550 INFO    MainThread:5755 [wandb_init.py:init():743] calling init triggers
+2025-01-24 17:04:41,551 INFO    MainThread:5755 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {}
+2025-01-24 17:04:41,551 INFO    MainThread:5755 [wandb_init.py:init():768] wandb.init() called when a run is still active
+2025-01-24 17:05:35,076 INFO    MainThread:5755 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-01-24 17:05:35,078 INFO    MainThread:5755 [wandb_init.py:_pause_backend():541] pausing backend
+2025-01-24 17:06:51,506 INFO    MainThread:5755 [wandb_init.py:_resume_backend():546] resuming backend
+2025-01-24 17:06:51,524 INFO    MainThread:5755 [wandb_init.py:setup_run_log_directory():624] Logging user logs to /Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_170651-zlflco6r/logs/debug.log
+2025-01-24 17:06:51,525 INFO    MainThread:5755 [wandb_init.py:setup_run_log_directory():625] Logging internal logs to /Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_170651-zlflco6r/logs/debug-internal.log
+2025-01-24 17:06:51,528 INFO    MainThread:5755 [wandb_init.py:init():743] calling init triggers
+2025-01-24 17:06:51,529 INFO    MainThread:5755 [wandb_init.py:init():748] wandb.init called with sweep_config: {}
+config: {}
+2025-01-24 17:06:51,530 INFO    MainThread:5755 [wandb_init.py:init():768] wandb.init() called when a run is still active
+2025-01-24 17:07:44,744 INFO    MainThread:5755 [wandb_run.py:_config_callback():1270] config_cb ('_wandb', 'viz', 'confusion_matrix') {'id': 'wandb/confusion_matrix/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'confusion_matrix'}} None
+2025-01-24 17:07:46,250 INFO    MainThread:5755 [wandb_run.py:_finish():2134] finishing run ehabsulima23-an-najah-national-university/ROADWATCH/xkpnyl57
+2025-01-24 17:07:46,251 INFO    MainThread:5755 [jupyter.py:save_history():458] not saving jupyter history
+2025-01-24 17:07:46,252 INFO    MainThread:5755 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-01-24 17:07:46,252 INFO    MainThread:5755 [wandb_init.py:_jupyter_teardown():558] cleaning up jupyter logic
+2025-01-24 17:07:46,253 INFO    MainThread:5755 [wandb_run.py:_atexit_cleanup():2374] got exitcode: 0
+2025-01-24 17:07:46,254 INFO    MainThread:5755 [wandb_run.py:_restore():2356] restore
+2025-01-24 17:07:46,255 INFO    MainThread:5755 [wandb_run.py:_restore():2362] restore done
+2025-01-24 17:07:49,076 INFO    MainThread:5755 [wandb_run.py:_footer_history_summary_info():3976] rendering history
+2025-01-24 17:07:49,077 INFO    MainThread:5755 [wandb_run.py:_footer_history_summary_info():4008] rendering summary
+2025-01-24 17:07:49,080 INFO    MainThread:5755 [wandb_run.py:_footer_sync_info():3937] logging synced files

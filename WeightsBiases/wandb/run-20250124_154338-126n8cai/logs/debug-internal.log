@@ -1,0 +1,24 @@
+{"time":"2025-01-24T15:43:38.188125+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.4","symlink path":"/Users/mac2/University/Machine Learning/VS Code /Test_repo/ROADWATCH/W&B/wandb/run-20250124_154338-126n8cai/logs/debug-core.log"}
+{"time":"2025-01-24T15:43:38.207338+02:00","level":"INFO","msg":"created new stream","id":"126n8cai"}
+{"time":"2025-01-24T15:43:38.207508+02:00","level":"INFO","msg":"stream: started","id":"126n8cai"}
+{"time":"2025-01-24T15:43:38.207639+02:00","level":"INFO","msg":"sender: started","stream_id":"126n8cai"}
+{"time":"2025-01-24T15:43:38.207639+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"126n8cai"}
+{"time":"2025-01-24T15:43:38.207714+02:00","level":"INFO","msg":"handler: started","stream_id":"126n8cai"}
+{"time":"2025-01-24T15:43:38.759201+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-24T15:43:39.185089+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T15:43:46.55372+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T15:44:36.510746+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T15:45:18.928086+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T15:46:08.316267+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T15:47:17.955804+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T15:47:17.967705+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-01-24T15:47:25.433692+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-01-24T15:48:16.045146+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-24T15:48:16.045208+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-24T15:48:17.051245+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading media/plotly/roc_curve_2_520eeb884ec75d9a0e34.plotly.json","runtime_seconds":0.81540986,"progress":"858.8KB/858.8KB"}],"total_operations":1}}
+{"time":"2025-01-24T15:48:17.265054+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-24T15:48:18.717785+02:00","level":"INFO","msg":"stream: closing","id":"126n8cai"}
+{"time":"2025-01-24T15:48:18.717814+02:00","level":"INFO","msg":"handler: closed","stream_id":"126n8cai"}
+{"time":"2025-01-24T15:48:18.71783+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"126n8cai"}
+{"time":"2025-01-24T15:48:18.717842+02:00","level":"INFO","msg":"sender: closed","stream_id":"126n8cai"}
+{"time":"2025-01-24T15:48:18.717993+02:00","level":"INFO","msg":"stream: closed","id":"126n8cai"}

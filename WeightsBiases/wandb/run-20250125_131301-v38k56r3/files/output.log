@@ -1,0 +1,19 @@
+0:	learn: 1.4062474	test: 1.4029169	best: 1.4029169 (0)	total: 350ms	remaining: 5m 49s
+100:	learn: 0.0600476	test: 0.0492843	best: 0.0492843 (100)	total: 17.1s	remaining: 2m 31s
+200:	learn: 0.0593382	test: 0.0487041	best: 0.0487041 (200)	total: 32.2s	remaining: 2m 7s
+300:	learn: 0.0591527	test: 0.0486334	best: 0.0486317 (291)	total: 47.3s	remaining: 1m 49s
+400:	learn: 0.0590463	test: 0.0486147	best: 0.0486137 (370)	total: 1m 2s	remaining: 1m 33s
+500:	learn: 0.0589935	test: 0.0486127	best: 0.0486091 (449)	total: 1m 17s	remaining: 1m 17s
+600:	learn: 0.0589478	test: 0.0486017	best: 0.0486017 (600)	total: 1m 32s	remaining: 1m 1s
+700:	learn: 0.0589189	test: 0.0486044	best: 0.0486017 (600)	total: 1m 47s	remaining: 45.9s
+800:	learn: 0.0588939	test: 0.0485997	best: 0.0485993 (797)	total: 2m 2s	remaining: 30.5s
+900:	learn: 0.0588810	test: 0.0486028	best: 0.0485993 (797)	total: 2m 17s	remaining: 15.1s
+999:	learn: 0.0588629	test: 0.0485998	best: 0.0485993 (797)	total: 2m 29s	remaining: 0us
+
+bestTest = 0.04859930965
+bestIteration = 797
+
+Shrink model to first 798 iterations.
+/Users/mac2/Library/Python/3.9/lib/python/site-packages/plotly/matplotlylib/renderer.py:609: UserWarning:
+
+I found a path object that I don't think is part of a bar chart. Ignoring.

@@ -1,0 +1,224 @@
+[34m[1mwandb[0m: [33mWARNING[0m Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+/Users/mac2/Library/Python/3.9/lib/python/site-packages/xgboost/core.py:158: UserWarning:
+
+[16:10:04] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740:
+Parameters: { "use_label_encoder" } are not used.
+[0]	validation_0-mlogloss:1.68396	validation_1-mlogloss:1.68553
+[1]	validation_0-mlogloss:1.54886	validation_1-mlogloss:1.55151
+[2]	validation_0-mlogloss:1.46392	validation_1-mlogloss:1.46734
+[3]	validation_0-mlogloss:1.40660	validation_1-mlogloss:1.41078
+[4]	validation_0-mlogloss:1.36656	validation_1-mlogloss:1.37137
+[5]	validation_0-mlogloss:1.33788	validation_1-mlogloss:1.34329
+[6]	validation_0-mlogloss:1.31691	validation_1-mlogloss:1.32302
+[7]	validation_0-mlogloss:1.30139	validation_1-mlogloss:1.30814
+[8]	validation_0-mlogloss:1.28973	validation_1-mlogloss:1.29709
+[9]	validation_0-mlogloss:1.28082	validation_1-mlogloss:1.28884
+[10]	validation_0-mlogloss:1.27402	validation_1-mlogloss:1.28269
+[11]	validation_0-mlogloss:1.26865	validation_1-mlogloss:1.27809
+[12]	validation_0-mlogloss:1.26445	validation_1-mlogloss:1.27458
+[13]	validation_0-mlogloss:1.26107	validation_1-mlogloss:1.27202
+[14]	validation_0-mlogloss:1.25836	validation_1-mlogloss:1.27016
+[15]	validation_0-mlogloss:1.25620	validation_1-mlogloss:1.26876
+[16]	validation_0-mlogloss:1.25434	validation_1-mlogloss:1.26771
+[17]	validation_0-mlogloss:1.25285	validation_1-mlogloss:1.26697
+[18]	validation_0-mlogloss:1.25157	validation_1-mlogloss:1.26647
+[19]	validation_0-mlogloss:1.25048	validation_1-mlogloss:1.26611
+[20]	validation_0-mlogloss:1.24945	validation_1-mlogloss:1.26582
+[21]	validation_0-mlogloss:1.24850	validation_1-mlogloss:1.26572
+[22]	validation_0-mlogloss:1.24769	validation_1-mlogloss:1.26570
+[23]	validation_0-mlogloss:1.24706	validation_1-mlogloss:1.26569
+[24]	validation_0-mlogloss:1.24630	validation_1-mlogloss:1.26582
+[25]	validation_0-mlogloss:1.24561	validation_1-mlogloss:1.26590
+[26]	validation_0-mlogloss:1.24489	validation_1-mlogloss:1.26608
+[27]	validation_0-mlogloss:1.24424	validation_1-mlogloss:1.26628
+[28]	validation_0-mlogloss:1.24355	validation_1-mlogloss:1.26647
+[29]	validation_0-mlogloss:1.24305	validation_1-mlogloss:1.26667
+[30]	validation_0-mlogloss:1.24233	validation_1-mlogloss:1.26685
+[31]	validation_0-mlogloss:1.24174	validation_1-mlogloss:1.26705
+[32]	validation_0-mlogloss:1.24113	validation_1-mlogloss:1.26729
+[33]	validation_0-mlogloss:1.24056	validation_1-mlogloss:1.26749
+[34]	validation_0-mlogloss:1.23998	validation_1-mlogloss:1.26770
+[35]	validation_0-mlogloss:1.23939	validation_1-mlogloss:1.26797
+[36]	validation_0-mlogloss:1.23874	validation_1-mlogloss:1.26822
+[37]	validation_0-mlogloss:1.23833	validation_1-mlogloss:1.26839
+[38]	validation_0-mlogloss:1.23782	validation_1-mlogloss:1.26858
+[39]	validation_0-mlogloss:1.23730	validation_1-mlogloss:1.26880
+[40]	validation_0-mlogloss:1.23667	validation_1-mlogloss:1.26903
+[41]	validation_0-mlogloss:1.23621	validation_1-mlogloss:1.26921
+[42]	validation_0-mlogloss:1.23575	validation_1-mlogloss:1.26943
+[43]	validation_0-mlogloss:1.23524	validation_1-mlogloss:1.26965
+[44]	validation_0-mlogloss:1.23476	validation_1-mlogloss:1.26984
+[45]	validation_0-mlogloss:1.23429	validation_1-mlogloss:1.27001
+[46]	validation_0-mlogloss:1.23388	validation_1-mlogloss:1.27020
+[47]	validation_0-mlogloss:1.23367	validation_1-mlogloss:1.27033
+[48]	validation_0-mlogloss:1.23318	validation_1-mlogloss:1.27056
+[49]	validation_0-mlogloss:1.23267	validation_1-mlogloss:1.27076
+[50]	validation_0-mlogloss:1.23221	validation_1-mlogloss:1.27094
+[51]	validation_0-mlogloss:1.23185	validation_1-mlogloss:1.27115
+[52]	validation_0-mlogloss:1.23138	validation_1-mlogloss:1.27134
+[53]	validation_0-mlogloss:1.23095	validation_1-mlogloss:1.27149
+[54]	validation_0-mlogloss:1.23055	validation_1-mlogloss:1.27167
+[55]	validation_0-mlogloss:1.23014	validation_1-mlogloss:1.27179
+[56]	validation_0-mlogloss:1.22972	validation_1-mlogloss:1.27197
+[57]	validation_0-mlogloss:1.22934	validation_1-mlogloss:1.27218
+[58]	validation_0-mlogloss:1.22892	validation_1-mlogloss:1.27239
+[59]	validation_0-mlogloss:1.22854	validation_1-mlogloss:1.27258
+[60]	validation_0-mlogloss:1.22811	validation_1-mlogloss:1.27272
+[61]	validation_0-mlogloss:1.22782	validation_1-mlogloss:1.27284
+[62]	validation_0-mlogloss:1.22740	validation_1-mlogloss:1.27294
+[63]	validation_0-mlogloss:1.22708	validation_1-mlogloss:1.27314
+[64]	validation_0-mlogloss:1.22671	validation_1-mlogloss:1.27333
+[65]	validation_0-mlogloss:1.22633	validation_1-mlogloss:1.27347
+[66]	validation_0-mlogloss:1.22596	validation_1-mlogloss:1.27365
+[67]	validation_0-mlogloss:1.22554	validation_1-mlogloss:1.27387
+[68]	validation_0-mlogloss:1.22523	validation_1-mlogloss:1.27409
+[69]	validation_0-mlogloss:1.22492	validation_1-mlogloss:1.27425
+[70]	validation_0-mlogloss:1.22460	validation_1-mlogloss:1.27442
+[71]	validation_0-mlogloss:1.22419	validation_1-mlogloss:1.27459
+[72]	validation_0-mlogloss:1.22381	validation_1-mlogloss:1.27481
+[73]	validation_0-mlogloss:1.22349	validation_1-mlogloss:1.27498
+[74]	validation_0-mlogloss:1.22318	validation_1-mlogloss:1.27516
+[75]	validation_0-mlogloss:1.22289	validation_1-mlogloss:1.27532
+[76]	validation_0-mlogloss:1.22254	validation_1-mlogloss:1.27559
+[77]	validation_0-mlogloss:1.22220	validation_1-mlogloss:1.27577
+[78]	validation_0-mlogloss:1.22187	validation_1-mlogloss:1.27594
+[79]	validation_0-mlogloss:1.22156	validation_1-mlogloss:1.27615
+[80]	validation_0-mlogloss:1.22125	validation_1-mlogloss:1.27634
+[81]	validation_0-mlogloss:1.22095	validation_1-mlogloss:1.27655
+[82]	validation_0-mlogloss:1.22062	validation_1-mlogloss:1.27668
+[83]	validation_0-mlogloss:1.22033	validation_1-mlogloss:1.27684
+[84]	validation_0-mlogloss:1.22012	validation_1-mlogloss:1.27698
+[85]	validation_0-mlogloss:1.21986	validation_1-mlogloss:1.27711
+[86]	validation_0-mlogloss:1.21958	validation_1-mlogloss:1.27725
+[87]	validation_0-mlogloss:1.21930	validation_1-mlogloss:1.27744
+[88]	validation_0-mlogloss:1.21902	validation_1-mlogloss:1.27756
+[89]	validation_0-mlogloss:1.21869	validation_1-mlogloss:1.27772
+[90]	validation_0-mlogloss:1.21838	validation_1-mlogloss:1.27790
+[91]	validation_0-mlogloss:1.21811	validation_1-mlogloss:1.27805
+[92]	validation_0-mlogloss:1.21779	validation_1-mlogloss:1.27827
+[93]	validation_0-mlogloss:1.21754	validation_1-mlogloss:1.27845
+[94]	validation_0-mlogloss:1.21731	validation_1-mlogloss:1.27859
+[95]	validation_0-mlogloss:1.21707	validation_1-mlogloss:1.27877
+[96]	validation_0-mlogloss:1.21675	validation_1-mlogloss:1.27896
+[97]	validation_0-mlogloss:1.21643	validation_1-mlogloss:1.27916
+[98]	validation_0-mlogloss:1.21620	validation_1-mlogloss:1.27930
+[99]	validation_0-mlogloss:1.21597	validation_1-mlogloss:1.27945
+
+
+/Users/mac2/Library/Python/3.9/lib/python/site-packages/plotly/matplotlylib/renderer.py:609: UserWarning:
+
+I found a path object that I don't think is part of a bar chart. Ignoring.
+
+/Users/mac2/Library/Python/3.9/lib/python/site-packages/xgboost/core.py:158: UserWarning:
+
+[16:12:09] WARNING: /Users/runner/work/xgboost/xgboost/src/learner.cc:740:
+Parameters: { "use_label_encoder" } are not used.
+[0]	validation_0-mlogloss:1.68404	validation_1-mlogloss:1.68558
+[1]	validation_0-mlogloss:1.54898	validation_1-mlogloss:1.55152
+[2]	validation_0-mlogloss:1.46390	validation_1-mlogloss:1.46733
+[3]	validation_0-mlogloss:1.40665	validation_1-mlogloss:1.41072
+[4]	validation_0-mlogloss:1.36671	validation_1-mlogloss:1.37135
+[5]	validation_0-mlogloss:1.33803	validation_1-mlogloss:1.34330
+[6]	validation_0-mlogloss:1.31706	validation_1-mlogloss:1.32296
+[7]	validation_0-mlogloss:1.30153	validation_1-mlogloss:1.30804
+[8]	validation_0-mlogloss:1.28986	validation_1-mlogloss:1.29697
+[9]	validation_0-mlogloss:1.28101	validation_1-mlogloss:1.28873
+[10]	validation_0-mlogloss:1.27417	validation_1-mlogloss:1.28256
+[11]	validation_0-mlogloss:1.26888	validation_1-mlogloss:1.27791
+[12]	validation_0-mlogloss:1.26478	validation_1-mlogloss:1.27435
+[13]	validation_0-mlogloss:1.26141	validation_1-mlogloss:1.27179
+[14]	validation_0-mlogloss:1.25881	validation_1-mlogloss:1.26983
+[15]	validation_0-mlogloss:1.25665	validation_1-mlogloss:1.26842
+[16]	validation_0-mlogloss:1.25489	validation_1-mlogloss:1.26735
+[17]	validation_0-mlogloss:1.25326	validation_1-mlogloss:1.26657
+[18]	validation_0-mlogloss:1.25196	validation_1-mlogloss:1.26595
+[19]	validation_0-mlogloss:1.25073	validation_1-mlogloss:1.26557
+[20]	validation_0-mlogloss:1.24974	validation_1-mlogloss:1.26545
+[21]	validation_0-mlogloss:1.24880	validation_1-mlogloss:1.26534
+[22]	validation_0-mlogloss:1.24787	validation_1-mlogloss:1.26529
+[23]	validation_0-mlogloss:1.24716	validation_1-mlogloss:1.26534
+[24]	validation_0-mlogloss:1.24643	validation_1-mlogloss:1.26551
+[25]	validation_0-mlogloss:1.24573	validation_1-mlogloss:1.26563
+[26]	validation_0-mlogloss:1.24505	validation_1-mlogloss:1.26586
+[27]	validation_0-mlogloss:1.24443	validation_1-mlogloss:1.26601
+[28]	validation_0-mlogloss:1.24386	validation_1-mlogloss:1.26620
+[29]	validation_0-mlogloss:1.24328	validation_1-mlogloss:1.26629
+[30]	validation_0-mlogloss:1.24270	validation_1-mlogloss:1.26648
+[31]	validation_0-mlogloss:1.24198	validation_1-mlogloss:1.26664
+[32]	validation_0-mlogloss:1.24139	validation_1-mlogloss:1.26690
+[33]	validation_0-mlogloss:1.24087	validation_1-mlogloss:1.26710
+[34]	validation_0-mlogloss:1.24022	validation_1-mlogloss:1.26735
+[35]	validation_0-mlogloss:1.23971	validation_1-mlogloss:1.26757
+[36]	validation_0-mlogloss:1.23909	validation_1-mlogloss:1.26777
+[37]	validation_0-mlogloss:1.23840	validation_1-mlogloss:1.26801
+[38]	validation_0-mlogloss:1.23799	validation_1-mlogloss:1.26818
+[39]	validation_0-mlogloss:1.23754	validation_1-mlogloss:1.26838
+[40]	validation_0-mlogloss:1.23712	validation_1-mlogloss:1.26856
+[41]	validation_0-mlogloss:1.23654	validation_1-mlogloss:1.26879
+[42]	validation_0-mlogloss:1.23596	validation_1-mlogloss:1.26899
+[43]	validation_0-mlogloss:1.23547	validation_1-mlogloss:1.26922
+[44]	validation_0-mlogloss:1.23501	validation_1-mlogloss:1.26944
+[45]	validation_0-mlogloss:1.23454	validation_1-mlogloss:1.26964
+[46]	validation_0-mlogloss:1.23403	validation_1-mlogloss:1.26990
+[47]	validation_0-mlogloss:1.23352	validation_1-mlogloss:1.27013
+[48]	validation_0-mlogloss:1.23311	validation_1-mlogloss:1.27027
+[49]	validation_0-mlogloss:1.23282	validation_1-mlogloss:1.27042
+[50]	validation_0-mlogloss:1.23230	validation_1-mlogloss:1.27061
+[51]	validation_0-mlogloss:1.23186	validation_1-mlogloss:1.27076
+[52]	validation_0-mlogloss:1.23153	validation_1-mlogloss:1.27094
+[53]	validation_0-mlogloss:1.23111	validation_1-mlogloss:1.27110
+[54]	validation_0-mlogloss:1.23071	validation_1-mlogloss:1.27135
+[55]	validation_0-mlogloss:1.23023	validation_1-mlogloss:1.27155
+[56]	validation_0-mlogloss:1.22984	validation_1-mlogloss:1.27167
+[57]	validation_0-mlogloss:1.22935	validation_1-mlogloss:1.27186
+[58]	validation_0-mlogloss:1.22899	validation_1-mlogloss:1.27207
+[59]	validation_0-mlogloss:1.22859	validation_1-mlogloss:1.27231
+[60]	validation_0-mlogloss:1.22822	validation_1-mlogloss:1.27248
+[61]	validation_0-mlogloss:1.22783	validation_1-mlogloss:1.27267
+[62]	validation_0-mlogloss:1.22749	validation_1-mlogloss:1.27284
+[63]	validation_0-mlogloss:1.22702	validation_1-mlogloss:1.27306
+[64]	validation_0-mlogloss:1.22661	validation_1-mlogloss:1.27324
+[65]	validation_0-mlogloss:1.22625	validation_1-mlogloss:1.27347
+[66]	validation_0-mlogloss:1.22591	validation_1-mlogloss:1.27368
+[67]	validation_0-mlogloss:1.22556	validation_1-mlogloss:1.27380
+[68]	validation_0-mlogloss:1.22511	validation_1-mlogloss:1.27399
+[69]	validation_0-mlogloss:1.22476	validation_1-mlogloss:1.27416
+[70]	validation_0-mlogloss:1.22440	validation_1-mlogloss:1.27432
+[71]	validation_0-mlogloss:1.22405	validation_1-mlogloss:1.27453
+[72]	validation_0-mlogloss:1.22376	validation_1-mlogloss:1.27465
+[73]	validation_0-mlogloss:1.22345	validation_1-mlogloss:1.27478
+[74]	validation_0-mlogloss:1.22315	validation_1-mlogloss:1.27496
+[75]	validation_0-mlogloss:1.22283	validation_1-mlogloss:1.27515
+[76]	validation_0-mlogloss:1.22252	validation_1-mlogloss:1.27531
+[77]	validation_0-mlogloss:1.22219	validation_1-mlogloss:1.27551
+[78]	validation_0-mlogloss:1.22182	validation_1-mlogloss:1.27567
+[79]	validation_0-mlogloss:1.22148	validation_1-mlogloss:1.27585
+[80]	validation_0-mlogloss:1.22120	validation_1-mlogloss:1.27606
+[81]	validation_0-mlogloss:1.22094	validation_1-mlogloss:1.27619
+[82]	validation_0-mlogloss:1.22068	validation_1-mlogloss:1.27633
+[83]	validation_0-mlogloss:1.22033	validation_1-mlogloss:1.27648
+[84]	validation_0-mlogloss:1.22006	validation_1-mlogloss:1.27658
+[85]	validation_0-mlogloss:1.21983	validation_1-mlogloss:1.27676
+[86]	validation_0-mlogloss:1.21961	validation_1-mlogloss:1.27695
+[87]	validation_0-mlogloss:1.21933	validation_1-mlogloss:1.27711
+[88]	validation_0-mlogloss:1.21906	validation_1-mlogloss:1.27729
+[89]	validation_0-mlogloss:1.21873	validation_1-mlogloss:1.27740
+[90]	validation_0-mlogloss:1.21848	validation_1-mlogloss:1.27755
+[91]	validation_0-mlogloss:1.21812	validation_1-mlogloss:1.27778
+[92]	validation_0-mlogloss:1.21787	validation_1-mlogloss:1.27800
+[93]	validation_0-mlogloss:1.21756	validation_1-mlogloss:1.27818
+[94]	validation_0-mlogloss:1.21733	validation_1-mlogloss:1.27829
+[95]	validation_0-mlogloss:1.21705	validation_1-mlogloss:1.27850
+[96]	validation_0-mlogloss:1.21674	validation_1-mlogloss:1.27869
+[97]	validation_0-mlogloss:1.21656	validation_1-mlogloss:1.27882
+[98]	validation_0-mlogloss:1.21625	validation_1-mlogloss:1.27898
+[99]	validation_0-mlogloss:1.21597	validation_1-mlogloss:1.27915
+
+
+/Users/mac2/Library/Python/3.9/lib/python/site-packages/plotly/matplotlylib/renderer.py:609: UserWarning:
+
+I found a path object that I don't think is part of a bar chart. Ignoring.
+
+/Users/mac2/Library/Python/3.9/lib/python/site-packages/plotly/matplotlylib/renderer.py:609: UserWarning:
+
+I found a path object that I don't think is part of a bar chart. Ignoring.
